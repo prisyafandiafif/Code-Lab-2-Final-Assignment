@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: aa0b30230cd8188409e2f79afb3dbaf6
+timeCreated: 1481702249
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Demon
+    100002: Demon Mesh
+    100004: Demon|chest
+    100006: Demon|foot.L
+    100008: Demon|foot.R
+    100010: Demon|forearm.L
+    100012: Demon|forearm.R
+    100014: Demon|hand.L
+    100016: Demon|hand.R
+    100018: Demon|head
+    100020: Demon|heel.02.L
+    100022: Demon|heel.02.R
+    100024: Demon|heel.L
+    100026: Demon|heel.R
+    100028: Demon|hips
+    100030: Demon|hips.002
+    100032: Demon|hips.003
+    100034: Demon|hips.004
+    100036: Demon|hips.005
+    100038: Demon|neck
+    100040: Demon|shin.L
+    100042: Demon|shin.R
+    100044: Demon|shoulder.L
+    100046: Demon|shoulder.R
+    100048: Demon|spine
+    100050: Demon|thigh.L
+    100052: Demon|thigh.R
+    100054: Demon|toe.L
+    100056: Demon|toe.R
+    100058: Demon|upper_arm.L
+    100060: Demon|upper_arm.R
+    100062: //RootNode
+    400000: Demon
+    400002: Demon Mesh
+    400004: Demon|chest
+    400006: Demon|foot.L
+    400008: Demon|foot.R
+    400010: Demon|forearm.L
+    400012: Demon|forearm.R
+    400014: Demon|hand.L
+    400016: Demon|hand.R
+    400018: Demon|head
+    400020: Demon|heel.02.L
+    400022: Demon|heel.02.R
+    400024: Demon|heel.L
+    400026: Demon|heel.R
+    400028: Demon|hips
+    400030: Demon|hips.002
+    400032: Demon|hips.003
+    400034: Demon|hips.004
+    400036: Demon|hips.005
+    400038: Demon|neck
+    400040: Demon|shin.L
+    400042: Demon|shin.R
+    400044: Demon|shoulder.L
+    400046: Demon|shoulder.R
+    400048: Demon|spine
+    400050: Demon|thigh.L
+    400052: Demon|thigh.R
+    400054: Demon|toe.L
+    400056: Demon|toe.R
+    400058: Demon|upper_arm.L
+    400060: Demon|upper_arm.R
+    400062: //RootNode
+    4300000: Demon Mesh
+    7400000: Demon|Demon action
+    7400002: Demon|Demon dead
+    7400004: Demon|Demon idle
+    7400006: Demon|Demon laughing
+    7400008: Demon|Demon lose
+    7400010: Demon|Demon walking
+    9500000: //RootNode
+    13700000: Demon Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Demon|Demon action
+      takeName: Demon|Demon action
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon
+        weight: 1
+      - path: Demon/Demon|hips
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003/Demon|hips.004
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003/Demon|hips.004/Demon|hips.005
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|neck
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|neck/Demon|head
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L/Demon|forearm.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L/Demon|forearm.L/Demon|hand.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R/Demon|forearm.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R/Demon|forearm.R/Demon|hand.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|foot.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|foot.L/Demon|toe.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|heel.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|heel.L/Demon|heel.02.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|foot.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|foot.R/Demon|toe.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|heel.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|heel.R/Demon|heel.02.R
+        weight: 1
+      - path: Demon Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon|Demon dead
+      takeName: Demon|Demon dead
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon
+        weight: 1
+      - path: Demon/Demon|hips
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003/Demon|hips.004
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003/Demon|hips.004/Demon|hips.005
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|neck
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|neck/Demon|head
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L/Demon|forearm.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L/Demon|forearm.L/Demon|hand.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R/Demon|forearm.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R/Demon|forearm.R/Demon|hand.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|foot.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|foot.L/Demon|toe.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|heel.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|heel.L/Demon|heel.02.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|foot.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|foot.R/Demon|toe.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|heel.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|heel.R/Demon|heel.02.R
+        weight: 1
+      - path: Demon Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon|Demon idle
+      takeName: Demon|Demon idle
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon
+        weight: 1
+      - path: Demon/Demon|hips
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003/Demon|hips.004
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003/Demon|hips.004/Demon|hips.005
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|neck
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|neck/Demon|head
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L/Demon|forearm.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L/Demon|forearm.L/Demon|hand.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R/Demon|forearm.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R/Demon|forearm.R/Demon|hand.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|foot.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|foot.L/Demon|toe.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|heel.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|heel.L/Demon|heel.02.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|foot.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|foot.R/Demon|toe.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|heel.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|heel.R/Demon|heel.02.R
+        weight: 1
+      - path: Demon Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon|Demon laughing
+      takeName: Demon|Demon laughing
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon
+        weight: 1
+      - path: Demon/Demon|hips
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003/Demon|hips.004
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003/Demon|hips.004/Demon|hips.005
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|neck
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|neck/Demon|head
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L/Demon|forearm.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L/Demon|forearm.L/Demon|hand.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R/Demon|forearm.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R/Demon|forearm.R/Demon|hand.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|foot.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|foot.L/Demon|toe.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|heel.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|heel.L/Demon|heel.02.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|foot.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|foot.R/Demon|toe.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|heel.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|heel.R/Demon|heel.02.R
+        weight: 1
+      - path: Demon Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon|Demon lose
+      takeName: Demon|Demon lose
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon
+        weight: 1
+      - path: Demon/Demon|hips
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003/Demon|hips.004
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003/Demon|hips.004/Demon|hips.005
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|neck
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|neck/Demon|head
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L/Demon|forearm.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L/Demon|forearm.L/Demon|hand.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R/Demon|forearm.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R/Demon|forearm.R/Demon|hand.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|foot.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|foot.L/Demon|toe.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|heel.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|heel.L/Demon|heel.02.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|foot.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|foot.R/Demon|toe.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|heel.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|heel.R/Demon|heel.02.R
+        weight: 1
+      - path: Demon Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Demon|Demon walking
+      takeName: Demon|Demon walking
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Demon
+        weight: 1
+      - path: Demon/Demon|hips
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003/Demon|hips.004
+        weight: 1
+      - path: Demon/Demon|hips/Demon|hips.002/Demon|hips.003/Demon|hips.004/Demon|hips.005
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|neck
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|neck/Demon|head
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L/Demon|forearm.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.L/Demon|upper_arm.L/Demon|forearm.L/Demon|hand.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R/Demon|forearm.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|spine/Demon|chest/Demon|shoulder.R/Demon|upper_arm.R/Demon|forearm.R/Demon|hand.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|foot.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|foot.L/Demon|toe.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|heel.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.L/Demon|shin.L/Demon|heel.L/Demon|heel.02.L
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|foot.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|foot.R/Demon|toe.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|heel.R
+        weight: 1
+      - path: Demon/Demon|hips/Demon|thigh.R/Demon|shin.R/Demon|heel.R/Demon|heel.02.R
+        weight: 1
+      - path: Demon Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
